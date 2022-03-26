@@ -1,0 +1,23 @@
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    color: #777;
+}
+
+.controls button a{
+    color: #2b9785;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button .inactive {
+    color: #777;
+}
+.p{
+    display: flex;
+    justify-content: center;
+}

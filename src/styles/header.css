@@ -1,0 +1,81 @@
+header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    border-radius: 10px;
+}
+
+.header__container {
+    width: 2200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    color: #fff;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.header__container .header__left {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.header__container .header__left nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container .header__left nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 1em;
+}
+
+.header__container .header__left nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__container h1 {
+    color: #2b9785;
+}
+
+.header__container h1 span {
+    color: #fff;
+}
+
+.header__container .header__right button {
+    color: #777;
+}
+
+.header__container .header__right a {
+    text-decoration: none;
+}
+
+.header__container .header__right button p {
+    margin-right: .5em;
+    font-size: 20px;
+}
+
+.header__container .header__right button svg {
+    font-size: 40px;
+}
+
+@media(max-width: 700px) {
+    .header__container .header__right button p {
+        display: none;
+    }
+}
+
+.header__container .header__left nav ul li .active {
+    color: #2b9785;
+    font-weight: 900;
+}
+
+.header__container .header__right .active {
+    color: #2b9785;
+}
